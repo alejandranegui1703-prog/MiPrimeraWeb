@@ -11,7 +11,7 @@
         <p>
             Hay libros que se leen y libros que se viven. Este es un espacio dedicado a las lecturas que transforman, emocionan y se graban en la memoria. Explora mis recomendaciones personales y encuentra el libro que te cambiará hoy.
         </p>
-        <nav>
+        <nav class="menu-principal">
             <ul>
                 <li><a href="#inicio">🏠 Inicio</a></li>
                 <li><a href="#libro-del-mes">⭐ Libro del mes</a></li>
@@ -22,16 +22,13 @@
     <main>
         <section id="libro-del-mes">
             <!-- Libro del mes -->
-            <figure>
                  <img
+                     class="portada-libro"
                      src="imagenes/la-hija-del-tutor.jpg" 
                      alt="Portada de La hija del tutor"
                      width="250"
                 >
-                <figcaption>
-                    La hija del tutor
-                </figcaption>
-            </figure>
+                <h2>La hija del tutor</h2>
                 <p>Secretos góticos, un misterio por resolver y un amor tan intenso como los acantilados de Cornualles te esperan</p>
             <a href="#la-hija-del-tutor">   
             Leer la reseña ↓
@@ -41,38 +38,36 @@
         <!-- Recomendaciones -->
         <article id="la-hija-del-tutor">
             <img 
+                class="portada-libro"
                 src="imagenes/la-hija-del-tutor.jpg" 
                 alt="Portada de La hija del tutor"
                 width="250"
             >
-            <div>
                 <h2>La hija del tutor</h2>
                 <p><em>Julie Klassen</em></p>
                 <p>⭐⭐⭐⭐☆ (4,5/5)</p>
-            </div>
-    <ul>
-        <li>💖 🏰 Romance histórico</li>
-        <li>🔎 Misterio y secretos</li>
-        <li>⚔ 💖 Enemies to lovers</li>
+    <ul class="etiquetas">
+        <li class="etiqueta">💖 🏰 Romance histórico</li>
+        <li class="etiqueta">🔎 Misterio y secretos</li>
+        <li class="etiqueta">⚔ 💖 Enemies to lovers</li>
     </ul>
     <p>🌶️ Nada de spicy</p>
-    <h3>🕰️ El momento perfecto para leerlo</h3> 
+    <h3 class="titulo-seccion">🕰️ El momento perfecto para leerlo</h3> 
     <p>🍂 Ideal para otoño, 📖 🧲 Tensión que engancha, 📖 ☕️ 🧣 Lectura, manta y café</p>
     <p><strong>Reseña:</strong> Aunque el comienzo es un poco lento, pronto consigue enganchar al lector. Habla de una manera increíble sobre temas muy actuales en una época completamente distinta a la nuestra. Es un libro perfecto para los amantes del romance y de las novelas de época.</p>
-    <h3>✨ La huella que me dejó</h3>
+    <h3 class="titulo-seccion">✨ La huella que me dejó</h3>
     <p>Me atrapó por completo el misterio en los acantilados de Devon y la tensión romántica de un enemies to lovers brutal. Además, me marcó la fuerza de una protagonista inteligente y decidida en medio de la intensa batalla entre dos hermanos.</p>
-    <hr>
-    <h3>📚 Sigue leyendo...</h3>
-    <ul>
-        <li>
+    <h3 class="titulo-seccion">📚 Sigue leyendo...</h3>
+    <ul class="libros-relacionados">
+        <li class="etiqueta">
             <strong>La institutriz silenciosa</strong><br>
             Si te gusta el romance pausado y el misterio.
         </li>
-        <li>
+        <li class="etiqueta">
             <strong>El secreto de Pembrooke Park</strong><br>
             Si buscas otra historia de época con secretos familiares.
         </li>
-        <li>
+        <li class="etiqueta">
             <strong>Blackmoore</strong><br>
             Si quieres seguir disfrutando de un romance histórico con una ambientación elegante.
         </li>
@@ -86,5 +81,8 @@
         </article>
     </section>
     </main>
+    <footer>
+        <p>© 2026 Historias que dejan huella</p>
+    </footer>
 </body>
 </html>
