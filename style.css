@@ -1,1 +1,18 @@
-
+body{
+  background-color: #F8F4EF;
+  font-family: Georgia, serif;
+  margin: 40px;
+  color: #3E3A39;
+}
+header{
+  text-align: center;
+}
+h1{
+  font-size:50px;
+}
+header p{
+  max-width: 700px;
+  margin: 20px auto;
+}
+.menu-principal{
+}
