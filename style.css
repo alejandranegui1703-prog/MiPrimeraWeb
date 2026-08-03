@@ -14,5 +14,36 @@ header p{
   max-width: 700px;
   margin: 20px auto;
 }
+.menu-principal ul{
+  list-style: none;
+}
+.menu-principal li{
+  display: inline-block;
+  margin: 15px;
+}
+.menu principal a{
+  text-decoration: none;
+  color: #3E3A39;
+  font-weight: bold;
+}
+.menu-principal a:hover{
+  color: #A67C52;
+}
 .menu-principal{
+  margin-top: 30px;
+}
+article{
+  background-color: white;
+  padding: 30px;
+  margin-top: 40px;
+  border-radius: 20px;ç
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+#recomendaciones{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+article{
+  flex: 1 1 300px;
 }
